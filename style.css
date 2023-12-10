@@ -1,0 +1,84 @@
+/* Header Styles */
+header {
+    padding: 20px 0;
+    background-color: #3498db; /* Dodger Blue */
+    color: #ffffff; /* White text */
+}
+
+/* Books Section Styles */
+#Books {
+    background-color: #f39c12; /* Orange */
+    padding: 50px 0;
+}
+
+.table th,
+.table td {
+    text-align: center;
+}
+
+/* Fun Facts Section Styles */
+@media (max-width: 768px) {
+    .header {
+        padding: 30px 0;
+    }
+
+    .list-group-item {
+        background-color: #ecf0f1;
+        border-color: #bdc3c7; /* Light border color */
+    }
+}
+
+/* Travel Videos Section Styles */
+#TravelVideo {
+    background-color: #3498db; /* Dodger Blue */
+    padding: 50px 0;
+}
+
+.sectionTitle {
+    color: #2c3e50; /* Darker text color for section titles */
+    margin-bottom: 30px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2c3e50;
+    color: #ffffff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header {
+        padding: 30px 0;
+    }
+
+    #Books,
+    #TravelVideo {
+        padding: 30px 0;
+    }
+
+    @media (max-width: 576px) {
+        .container {
+            padding: 0 10px;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 45%;
+            transform: translateY(-50%);
+            right: 25%;
+        }
+        .list-group-item {
+        background-color: #3498db; /* Dodger Blue */
+        border-color: #2980b9; /* Darker Dodger Blue for border */
+        color: #ffffff; /* White text */
+        margin-bottom: 20px;
+        border-radius: 10px; /* Rounded corners */
+        padding: 15px;
+    }
+}
